@@ -1,0 +1,59 @@
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 32px; }
+.resultats { display: flex; gap: 24px; }
+.targeta { flex: 1; }
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+
+body{
+    margin: 0;
+}
+
+h1,h2{
+    font-family:"Bebas Neue",sans-serif;
+}
+*{
+   font-family:"Work Sans", sans-serif;
+}
+
+
+a{
+    color:white;
+}
+nav,.targeta{
+    background-color: #0b3a5e;
+    
+}
+
+.buscador,footer{
+    background-color:#032541;
+}
+a:hover{
+    color: #01b4e4;
+}
+
+.any{
+    color: #90cea1;
+}
+header{
+    padding: 0px 0px;
+    
+}
+header ul{
+    list-style: none
+}
+#busqueda{
+  background-color: #01b4e4;  
+}
+
+h1,h3{
+    color:white;
+}
+.buscador p{
+    color:grey;
+}
+footer{
+    color: grey;
+}
