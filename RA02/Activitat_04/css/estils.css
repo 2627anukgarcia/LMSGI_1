@@ -7,15 +7,16 @@ nav ul { display: flex; gap: 32px; }
 
 /* ===== ELS VOSTRES ESTILS ===== */
 
+*{
+    font-family:"Work Sans", sans-serif;
+ }
+
 body{
-    margin: 0;
+    margin: 40;
 }
 
 h1,h2{
     font-family:"Bebas Neue",sans-serif;
-}
-*{
-   font-family:"Work Sans", sans-serif;
 }
 
 
@@ -25,7 +26,10 @@ a{
 nav,.targeta{
     background-color: #0b3a5e;
     
+
+    
 }
+
 
 .buscador,footer{
     background-color:#032541;
@@ -42,7 +46,9 @@ header{
     
 }
 header ul{
-    list-style: none
+    list-style: none;
+    text-decoration: none;
+
 }
 #busqueda{
   background-color: #01b4e4;  
@@ -51,9 +57,39 @@ header ul{
 h1,h3{
     color:white;
 }
-.buscador p{
+.buscador p,footer{
     color:grey;
 }
+
+button, .targeta{
+    border-radius: 6px;
+    border-width: 0px;
+    margin-bottom:20px;
+}
+.buscador{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.formulari{
+    background-color:#03497e;
+    padding: 10px 50px 10px 50px;
+    border-width:0px ;
+    max-width: 800px;
+}
+button{
+    padding: 10px 50px 10px 50px;
+}
 footer{
-    color: grey;
+    padding: 5px 10px 5px 10px;
+}
+.targeta>a>img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 0px 10px 0px;
+}
+.pelicules{
+    max-width: 550px;
+    margin: 0 auto;
 }
